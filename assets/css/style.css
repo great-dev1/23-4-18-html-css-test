@@ -361,11 +361,11 @@
 }
 .footer__something__title:hover {
   background-color: #dfdfdf;
+  cursor: pointer;
 }
 .footer__something__content li {
   padding-top: 12px;
   padding-bottom: 12px;
-  font-weight: 600;
   transition: 0.3s;
 }
 .footer__something__content li:hover {
@@ -389,10 +389,12 @@
     padding-top: 12.5px;
     padding-bottom: 12.5px;
     border-bottom: none;
+    text-align: left;
   }
   .footer__something__title:hover {
     color: #36bae6;
     background-color: transparent;
+    cursor: default;
   }
   .footer__something__content li:hover {
     color: #36bae6;
