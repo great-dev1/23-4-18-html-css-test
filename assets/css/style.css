@@ -67,7 +67,7 @@
 }
 .header__menu__ul a {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: medium;
   line-height: 26px;
 }
 
@@ -357,6 +357,7 @@
   padding-top: 12.5px;
   padding-bottom: 12.5px;
   border-bottom: 1px solid #dfdfdf;
+  transition: 0.3s;
 }
 .footer__something__title:hover {
   background-color: #dfdfdf;
@@ -365,6 +366,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   font-weight: 600;
+  transition: 0.3s;
 }
 .footer__something__content li:hover {
   background-color: #dfdfdf;
